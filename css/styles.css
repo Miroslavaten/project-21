@@ -76,7 +76,7 @@ a {
 }
 
 .info__container {
-  width: 1096px;
+  max-width: 1096px;
   margin: 0 auto;
 }
 
@@ -90,7 +90,6 @@ a {
   font-weight: 500;
   font-size: 40px;
   line-height: 49px;
-  margin-right: 157px;
   margin-bottom: 37px;
 }
 
@@ -134,7 +133,7 @@ a {
   background-size: cover;
 }
 .container {
-  width: 721px;
+  max-width: 721px;
   margin: 0 auto;
 }
 
@@ -197,7 +196,6 @@ a {
 
 .social {
   padding-top: 33px;
-  padding-left: 40px;
 }
 
 .social__list-item {
@@ -233,7 +231,8 @@ a {
 .footer__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .footer__logo {
@@ -242,7 +241,6 @@ a {
 
 .footer__email {
   padding-top: 35px;
-  padding-right: 40px;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.1em;
