@@ -27,5 +27,13 @@
         margin-bottom: 59px;
   }
 
+  .container {
+      width: 591px;
+  }
+
+  .subscribe__text{
+      margin-bottom: 78px;
+  }
+
   
 }
