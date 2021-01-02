@@ -75,6 +75,11 @@ a {
   height: 740px;
 }
 
+.info__container {
+  width: 1096px;
+  margin: 0 auto;
+}
+
 .wraper {
   display: flex;
   justify-content: space-between;
@@ -85,14 +90,12 @@ a {
   font-weight: 500;
   font-size: 40px;
   line-height: 49px;
-  margin-left: 188px;
   margin-right: 157px;
   margin-bottom: 37px;
 }
 
 .info__description-text {
   width: 348px;
-  margin-left: 188px;
   margin-right: 157px;
 }
 

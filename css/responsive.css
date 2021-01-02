@@ -1,0 +1,31 @@
+@media (min-width: 767px) and (max-width: 992px) {
+  .header {
+    height: 852px;
+  }
+  .header__title {
+    font-size: 90px;
+    line-height: 110px;
+    margin-bottom: 143px;
+  }
+
+  .info {
+      height: 919px;
+  }
+
+  .info__container {
+      width: 591px;
+  }
+
+  .wraper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .info__description-text {
+      width: 591px;
+        margin-bottom: 59px;
+  }
+
+  
+}
